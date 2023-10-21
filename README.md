@@ -1,5 +1,4 @@
 # loja_verde
-
 Atividades
 [ ] Criar o banco de dados da Loja
 [ ] Criar a estrutura de pastas do projeto
@@ -13,4 +12,6 @@ Atividades
    [ ] Criar o autoload (Carrega os arquivos na memória)
 [ ] Criar o HomeController (Carregar a Index)
 [ ] Criar o ProdutoController (Controla as operações
-de Produto)
+
+
+
