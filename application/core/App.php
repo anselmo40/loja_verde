@@ -1,4 +1,5 @@
 <?php
+namespace Application\core;
 
 class App{
     protected $controller = 'HomeController';
@@ -6,22 +7,6 @@ class App{
     protected $page404 = 'false';
     protected $params = [];
 
-<<<<<<< HEAD
-    public function _construt() {
-        $URL_ARRAY = $this->parse_url();
-        $this->get_ControllerFromUrl($URL_ARRAY);
-        $this->get_MethodFromUrl($URL_ARRAY);
-        $this->get_ParamsFromUrl($URL_ARRAY);
-    call_user_func_array($this->controller, $this->method], $this->params);    
-    }
-
-       public function parse_url(){
-        $_REQUEST_URl = explode('/'),
-        substr(filter_input(INPUT_SERVER, 'REQUEST_URL'), 1));
-       } 
-}
-
-=======
     public function __construct(){
         $URL_ARRAY = $this->parseUrl();
         $this->getControllerFromUrl($URL_ARRAY);
@@ -61,23 +46,22 @@ private function getParamsFromUrl($url){
     if(count($url) > 2){
         $this->params = array_slice($url, 2);
     }
-
-}
 }
 
-
-
-
-}
-
-
-
-
-}
+} // fim Class
 
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
 ?>
->>>>>>> b322456fd98916668ad8e8e3f8f104964506b765
